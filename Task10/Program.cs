@@ -11,4 +11,5 @@ Console.WriteLine();
 int A = int.Parse(str);
 int B = A / 10;
 int C = B % 10;
-Console.WriteLine(C);
+int D = Math.Abs(C);
+Console.WriteLine(D);
