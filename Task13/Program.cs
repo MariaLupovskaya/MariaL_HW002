@@ -10,7 +10,6 @@ string str = Console.ReadLine();
 int str1 = int.Parse(str);
 int str2 = Math.Abs(str1);
 string num = Convert.ToString(str2);
-
 if (num.Length > 2)
 {
     Console.WriteLine("Третья цифра: " + num[2]);
